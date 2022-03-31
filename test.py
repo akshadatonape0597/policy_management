@@ -1,6 +1,6 @@
 
 import pandas as pd
-path="/inbound/input.xlsx"
+path=sys.argv[1]
 df=pd.read_excel(path)
 print(df.head(9))
 

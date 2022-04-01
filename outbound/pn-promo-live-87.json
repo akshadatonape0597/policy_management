@@ -1,6 +1,8 @@
-{"name": "pn:promo:LIVE:087",
-"description": "Policy for 087 in LIVE dataset. These are just sample resources and actions. This is not a complete list",
-"subjects": ["gn:promo:LIVE:087"],
+{"subjects": ["gn:promo:LIVE:087"],
+"meta": "NULL",
+"name": "pn:promo:LIVE:087",
+"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
+"conditions": {},
 "effect": "allow",
 "resources": ["rn:promo:LIVE:subcategory:087-003-091:*",
 "rn:promo:LIVE:subcategory:087-003-023:*",
@@ -33,6 +35,4 @@
 "rn:promo:LIVE:subcategory:087-011-020:*",
 "rn:promo:LIVE:subcategory:087-011-019:*",
 "rn:promo:LIVE:subcategory:087-001-007:*"],
-"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
-"conditions": {},
-"meta": "NULL"}
+"description": "Policy for 087 in LIVE dataset. These are just sample resources and actions. This is not a complete list"}

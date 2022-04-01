@@ -1,6 +1,8 @@
-{"name": "pn:promo:LIVE:035",
-"description": "Policy for 035 in LIVE dataset. These are just sample resources and actions. This is not a complete list",
-"subjects": ["gn:promo:LIVE:035"],
+{"subjects": ["gn:promo:LIVE:035"],
+"meta": "NULL",
+"name": "pn:promo:LIVE:035",
+"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
+"conditions": {},
 "effect": "allow",
 "resources": ["rn:promo:LIVE:subcategory:035-002-007:*",
 "rn:promo:LIVE:subcategory:035-002-036:*",
@@ -63,6 +65,4 @@
 "rn:promo:LIVE:subcategory:035-001-020:*",
 "rn:promo:LIVE:subcategory:035-002-004:*",
 "rn:promo:LIVE:subcategory:035-002-047:*"],
-"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
-"conditions": {},
-"meta": "NULL"}
+"description": "Policy for 035 in LIVE dataset. These are just sample resources and actions. This is not a complete list"}

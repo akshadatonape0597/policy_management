@@ -1,6 +1,8 @@
-{"name": "pn:promo:LIVE:071",
-"description": "Policy for 071 in LIVE dataset. These are just sample resources and actions. This is not a complete list",
-"subjects": ["gn:promo:LIVE:071"],
+{"subjects": ["gn:promo:LIVE:071"],
+"meta": "NULL",
+"name": "pn:promo:LIVE:071",
+"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
+"conditions": {},
 "effect": "allow",
 "resources": ["rn:promo:LIVE:subcategory:071-044-044:*",
 "rn:promo:LIVE:subcategory:071-013-013:*",
@@ -89,6 +91,4 @@
 "rn:promo:LIVE:subcategory:071-015-015:*",
 "rn:promo:LIVE:subcategory:071-006-018:*",
 "rn:promo:LIVE:subcategory:071-006-012:*"],
-"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
-"conditions": {},
-"meta": "NULL"}
+"description": "Policy for 071 in LIVE dataset. These are just sample resources and actions. This is not a complete list"}

@@ -1,6 +1,8 @@
-{"name": "pn:promo:LIVE:002",
-"description": "Policy for 002 in LIVE dataset. These are just sample resources and actions. This is not a complete list",
-"subjects": ["gn:promo:LIVE:002"],
+{"subjects": ["gn:promo:LIVE:002"],
+"meta": "NULL",
+"name": "pn:promo:LIVE:002",
+"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
+"conditions": {},
 "effect": "allow",
 "resources": ["rn:promo:LIVE:subcategory:002-013-018:*",
 "rn:promo:LIVE:subcategory:002-018-037:*",
@@ -69,6 +71,4 @@
 "rn:promo:LIVE:subcategory:002-021-049:*",
 "rn:promo:LIVE:subcategory:002-009-009:*",
 "rn:promo:LIVE:subcategory:002-016-096:*"],
-"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
-"conditions": {},
-"meta": "NULL"}
+"description": "Policy for 002 in LIVE dataset. These are just sample resources and actions. This is not a complete list"}

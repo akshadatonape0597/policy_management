@@ -1,8 +1,8 @@
-{"name": "pn:promo:LIVE:999",
-"description": "Policy for 999 in LIVE dataset. These are just sample resources and actions. This is not a complete list",
-"subjects": ["gn:promo:LIVE:999"],
-"effect": "allow",
-"resources": ["rn:promo:LIVE:subcategory:999-999-999:*"],
+{"subjects": ["gn:promo:LIVE:999"],
+"meta": "NULL",
+"name": "pn:promo:LIVE:999",
 "actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
 "conditions": {},
-"meta": "NULL"}
+"effect": "allow",
+"resources": ["rn:promo:LIVE:subcategory:999-999-999:*"],
+"description": "Policy for 999 in LIVE dataset. These are just sample resources and actions. This is not a complete list"}

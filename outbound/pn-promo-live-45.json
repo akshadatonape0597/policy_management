@@ -1,6 +1,8 @@
-{"name": "pn:promo:LIVE:045",
-"description": "Policy for 045 in LIVE dataset. These are just sample resources and actions. This is not a complete list",
-"subjects": ["gn:promo:LIVE:045"],
+{"subjects": ["gn:promo:LIVE:045"],
+"meta": "NULL",
+"name": "pn:promo:LIVE:045",
+"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
+"conditions": {},
 "effect": "allow",
 "resources": ["rn:promo:LIVE:subcategory:045-002-016:*",
 "rn:promo:LIVE:subcategory:045-032-053:*",
@@ -42,6 +44,4 @@
 "rn:promo:LIVE:subcategory:045-010-015:*",
 "rn:promo:LIVE:subcategory:045-036-035:*",
 "rn:promo:LIVE:subcategory:045-035-035:*"],
-"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
-"conditions": {},
-"meta": "NULL"}
+"description": "Policy for 045 in LIVE dataset. These are just sample resources and actions. This is not a complete list"}

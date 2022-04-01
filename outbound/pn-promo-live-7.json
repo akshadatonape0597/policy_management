@@ -1,6 +1,8 @@
-{"name": "pn:promo:LIVE:007",
-"description": "Policy for 007 in LIVE dataset. These are just sample resources and actions. This is not a complete list",
-"subjects": ["gn:promo:LIVE:007"],
+{"subjects": ["gn:promo:LIVE:007"],
+"meta": "NULL",
+"name": "pn:promo:LIVE:007",
+"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
+"conditions": {},
 "effect": "allow",
 "resources": ["rn:promo:LIVE:subcategory:007-018-018:*",
 "rn:promo:LIVE:subcategory:007-032-014:*",
@@ -44,6 +46,4 @@
 "rn:promo:LIVE:subcategory:007-004-030:*",
 "rn:promo:LIVE:subcategory:007-017-017:*",
 "rn:promo:LIVE:subcategory:007-006-032:*"],
-"actions": ["an:promo:LIVE:dummy:state:0:all:NA"],
-"conditions": {},
-"meta": "NULL"}
+"description": "Policy for 007 in LIVE dataset. These are just sample resources and actions. This is not a complete list"}
